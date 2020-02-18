@@ -3,6 +3,10 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
+import {anim} from './utils/anim'
+
+Vue.mixin(anim)
+
 Vue.config.productionTip = false
 
 new Vue({
